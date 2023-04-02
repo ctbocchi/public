@@ -1,0 +1,16 @@
+MMOEngine
+MMOCoreORB/bin/conf
+MMOCoreORB/bin/conf/rev.txt
+MMOCoreORB/bin/o_screenlog.0.gz
+MMOCoreORB/bin/o_screenlog.1.gz
+MMOCoreORB/bin/o_screenlog.2.gz
+MMOCoreORB/bin/o_screenlog.3.gz
+MMOCoreORB/bin/o_screenlog.4.gz
+MMOCoreORB/bin/o_screenlog.5.gz
+MMOCoreORB/bin/scripts/managers/resource_manager_spawns.lua
+luacov.report.out
+luacov.stats.out
+/.vs
+/MMOCoreORB/out/
+/MMOCoreORB/utils/googletest-release-1.8.0/googlemock/lib
+MMOCoreORB/bin/scripts/custom_scripts/_to_do.txt

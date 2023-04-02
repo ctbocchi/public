@@ -1,0 +1,40 @@
+woodland_kima = Creature:new {
+	objectName = "@mob/creature_names:woodland_kima",
+	socialGroup = "kima",
+	faction = "",
+	level = 80,
+	chanceHit = 2.5,
+	damageMin = 705,
+	damageMax = 1250,
+	baseXp = 6840,
+	baseHAM = 22495,
+	baseHAMmax = 25283,
+	armor = 1,
+	resists = {160,155,145,140,145,135,120,120,-1},
+	meatType = "meat_carnivore",
+	meatAmount = 123,
+	hideType = "hide_bristley",
+	hideAmount = 123,
+	boneType = "bone_mammal",
+	boneAmount = 123,
+	milk = 0,
+	tamingChance = 0.05,
+	ferocity = 0,
+	pvpBitmask = ATTACKABLE,
+	creatureBitmask = PACK + KILLER,
+	optionsBitmask = AIENABLED,
+	diet = CARNIVORE,
+
+	templates = {"object/mobile/kima.iff"},
+	controlDeviceTemplate = "object/intangible/pet/kima_hue.iff",
+	scale = 1.05,
+	lootGroups = {},
+	weapons = {},
+	conversationTemplate = "",
+	attacks = {
+		{"intimidationattack",""},
+		{"blindattack",""},
+	}
+}
+
+CreatureTemplates:addCreatureTemplate(woodland_kima, "woodland_kima")

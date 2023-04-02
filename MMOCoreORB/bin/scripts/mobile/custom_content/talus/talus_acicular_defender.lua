@@ -1,0 +1,40 @@
+talus_acicular_defender = Creature:new {
+	objectName = "@mob/creature_names:paralope_acicular_defender",
+	socialGroup = "paralope",
+	faction = "",
+	level = 64,
+	chanceHit = 3.5,
+	damageMin = 550,
+	damageMax = 950,
+	baseXp = 6140,
+	baseHAM = 14590,
+	baseHAMmax = 16642,
+	armor = 1,
+	resists = {135,25,40,-1,-1,-1,20,45,-1},
+	meatType = "meat_herbivore",
+	meatAmount = 123,
+	hideType = "hide_wooly",
+	hideAmount = 123,
+	boneType = "bone_mammal",
+	boneAmount = 123,
+	milk = 2 * 0,
+	tamingChance = 0.01,
+	ferocity = 0,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = PACK + HERD,
+	optionsBitmask = AIENABLED,
+	diet = HERBIVORE,
+
+	templates = {"object/mobile/paralope.iff"},
+	controlDeviceTemplate = "object/intangible/pet/swirl_prong_hue.iff",
+	scale = 1.2,
+	lootGroups = {},
+	weapons = {},
+	conversationTemplate = "",
+	attacks = {
+		{"blindattack",""},
+		{"creatureareacombo",""},
+	}
+}
+
+CreatureTemplates:addCreatureTemplate(talus_acicular_defender, "talus_acicular_defender")

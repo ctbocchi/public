@@ -1,0 +1,40 @@
+vicious_huf_dun = Creature:new {
+	objectName = "@mob/creature_names:vicious_huf_dun",
+	socialGroup = "huf_dun",
+	faction = "",
+	level = 55,
+	chanceHit = 0.5,
+	damageMin = 370,
+	damageMax = 450,
+	baseXp = 4373,
+	baseHAM = 34000,
+	baseHAMmax = 38000,
+	armor = 1,
+	resists = {165,140,185,-1,-1,-1,25,190,-1},
+	meatType = "meat_herbivore",
+	meatAmount = 850,
+	hideType = "hide_leathery",
+	hideAmount = 900,
+	boneType = "bone_mammal",
+	boneAmount = 850,
+	milk = 0,
+	tamingChance = .25,
+	ferocity = 3,
+	pvpBitmask = ATTACKABLE,
+	creatureBitmask = PACK + KILLER,
+	optionsBitmask = AIENABLED,
+	diet = CARNIVORE,
+
+	templates = {"object/mobile/huf_dun.iff"},
+	controlDeviceTemplate = "object/intangible/pet/huf_dun_hue.iff",
+	scale = 0.9,
+	lootGroups = {},
+	weapons = {},
+	conversationTemplate = "",
+	attacks = {
+		{"stunattack",""},
+		{"dizzyattack",""},
+	}
+}
+
+CreatureTemplates:addCreatureTemplate(vicious_huf_dun, "vicious_huf_dun")
